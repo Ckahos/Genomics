@@ -28,6 +28,7 @@ class Rodd{
 	private:
 		string x;
 	public:
+		void Polar(string);
 		Rodd(string);
 };
 Rodd::Rodd(string a){
@@ -45,6 +46,11 @@ Rodd::Rodd(string a){
 	for(all = V.begin();all != V.end();all++){
 		cout<<setw(8)<<all->first<<": "<<setw(14)<<all->second<<"%"<<endl;
 	}
+Rodd::Polar(string x){
+	x = a;
+	char Polar [] = {'Q','N','H','S','T','Y','C','W'};
+	char nPolar [] = {'A','I','L','M','F','V','P','G'};
+}
 }
 class Reader{
 	private:
