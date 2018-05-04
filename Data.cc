@@ -73,7 +73,8 @@ void Menu::poll(string x){ // poll declared here
 }
 	if(x == "exit") {
 		cout<<"Exiting .....\n";
-			// Find exiting pattern		
+		exit(EXIT_FAILURE)
+			// Find exiting pattern
 	}
 	else {
 		cout<<("Waht?\n");
